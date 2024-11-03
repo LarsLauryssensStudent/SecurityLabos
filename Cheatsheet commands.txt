@@ -1,0 +1,23 @@
+## Uit te voeren in BASH CONSOLE
+
+#Aanmaken van certificate in BASH CONSOLE
+
+    openssl genrsa -out key.pem 4096
+    
+    openssl req -new -sha256 -out private.csr -key key.pem -config ssl.conf 
+
+    openssl x509 -req -days 3650 -in private.csr -signkey key.pem -out cert.pem -extensions req_ext -extfile ssl.conf
+
+De response is dan een reeks vragen, hieronder een voorbeeld: (dit komt door de ssl.config)
+    Country Name (2 letter code) []:BE
+    State or Province Name (full name) []:Antwerpen
+    Locality Name (eg, city) []:Antwerpen
+    Organization Name (eg, company) []:AP
+    Organizational Unit Name (eg, section) []:Software Security
+    Common Name (eg, fully qualified host name) []:localhost
+
+Dit zal twee bestanden aanmaken key.pem en cert.pem. Het eerste bestand is je private sleutel waarmee je je certificaat mee gesigned hebt. En het tweede bestand is het certificaat zelf.
+
+Je kan de inhoud van een certificaat op de volgende manier in textvorm bekijken: 
+    openssl x509 -in cert.pem -text
+

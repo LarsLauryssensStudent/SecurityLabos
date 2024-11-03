@@ -1,0 +1,12 @@
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.9
+Comment: https://keybase.io/crypto
+
+wYwDI3Iv9O7jyW8BA/9miFCzP6j5lO+7+UXEN4dLhnNdqSh5McGmjgLyvT+0+5YR
+KAwU99Gxj/+mJakWYPODkne9Q8hltzwBuZW2opaPad3SYmAGm/J2Xh4nBSoysUyX
+jN0ZOCww/2cuPj5DD0jb2shPTs7V74Wn4qvWIGG4lOSfLuADe0i4ul+qbWBUetJr
+AQU5hcxboVBzeyfNyqfxK8Ky17K0eEXFWJ06bqkTb6wDe68PUZN6i4fgQMX+Y5G/
+CH2u2pGCIliKKdU5YK2b4tu9TugjqFCYYZSw/Ji/5yjpz6kI3sJKj5tc6VIpcDET
+3V4xz9KjkMdtszY=
+=uJXP
+-----END PGP MESSAGE-----
